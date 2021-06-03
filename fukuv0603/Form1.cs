@@ -30,22 +30,32 @@ namespace fukuv0603
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Top = label1.Top - 30;
+            textBox1.Text = "0";
+            textBox2.Text = "-5";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Left = label1.Left + 30;
+            textBox1.Text = "5";
+            textBox2.Text = "0";
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Left = label1.Left - 30;
+            textBox1.Text = "-5";
+            textBox2.Text = "0";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            label1.Top = label1.Top + 30;
+            textBox1.Text = "0";
+            textBox2.Text = "5";
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
